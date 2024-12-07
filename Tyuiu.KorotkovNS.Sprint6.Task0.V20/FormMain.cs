@@ -33,5 +33,10 @@ namespace Tyuiu.KorotkovNS.Sprint6.Task0.V20
         {
             MessageBox.Show("Таск 0 выполнил студент группы ИСТНб-24-1 Коротков Никита Сергеевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
+
+        private void pictureBoxFormula_KNS_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

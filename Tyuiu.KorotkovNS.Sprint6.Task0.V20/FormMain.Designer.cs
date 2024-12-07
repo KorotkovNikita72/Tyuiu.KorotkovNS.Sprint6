@@ -36,9 +36,9 @@
             groupBox1 = new GroupBox();
             textBoxVarX_KNS = new TextBox();
             groupBoxButton_KNS = new GroupBox();
+            buttonHelp = new Button();
             buttonOtvet_KNS = new Button();
             textBoxOtvet = new TextBox();
-            buttonHelp = new Button();
             groupBoxTask_KNS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_KNS).BeginInit();
             groupBoxVar_KNS.SuspendLayout();
@@ -74,6 +74,7 @@
             pictureBoxFormula_KNS.Size = new Size(303, 162);
             pictureBoxFormula_KNS.TabIndex = 2;
             pictureBoxFormula_KNS.TabStop = false;
+            pictureBoxFormula_KNS.Click += pictureBoxFormula_KNS_Click;
             // 
             // groupBoxVar_KNS
             // 
@@ -115,6 +116,17 @@
             groupBoxButton_KNS.TabStop = false;
             groupBoxButton_KNS.Text = "Вывод данных";
             // 
+            // buttonHelp
+            // 
+            buttonHelp.FlatStyle = FlatStyle.Flat;
+            buttonHelp.Location = new Point(5, 80);
+            buttonHelp.Name = "buttonHelp";
+            buttonHelp.Size = new Size(49, 49);
+            buttonHelp.TabIndex = 2;
+            buttonHelp.Text = "?";
+            buttonHelp.UseVisualStyleBackColor = true;
+            buttonHelp.Click += buttonHelp_Click;
+            // 
             // buttonOtvet_KNS
             // 
             buttonOtvet_KNS.Location = new Point(60, 80);
@@ -132,17 +144,6 @@
             textBoxOtvet.ReadOnly = true;
             textBoxOtvet.Size = new Size(130, 27);
             textBoxOtvet.TabIndex = 0;
-            // 
-            // buttonHelp
-            // 
-            buttonHelp.FlatStyle = FlatStyle.Flat;
-            buttonHelp.Location = new Point(5, 80);
-            buttonHelp.Name = "buttonHelp";
-            buttonHelp.Size = new Size(49, 49);
-            buttonHelp.TabIndex = 2;
-            buttonHelp.Text = "?";
-            buttonHelp.UseVisualStyleBackColor = true;
-            buttonHelp.Click += buttonHelp_Click;
             // 
             // FormMain
             // 
