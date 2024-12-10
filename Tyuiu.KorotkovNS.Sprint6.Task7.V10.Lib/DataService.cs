@@ -24,9 +24,9 @@ namespace Tyuiu.KorotkovNS.Sprint6.Task7.V10.Lib
                 {
                     matrix[i, j] = int.Parse(values[j]);
 
-                    if (matrix[i, j] >= 5 && matrix[i, j] <= 10)
+                    if (matrix[4, j] >= 5 && matrix[4, j] <= 10)
                     {
-                        matrix[i, j] = 0;
+                        matrix[4, j] = 0;
                     }
 
                 }

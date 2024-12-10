@@ -74,7 +74,7 @@
             buttonHelp_KNS.Size = new Size(121, 69);
             buttonHelp_KNS.TabIndex = 0;
             buttonHelp_KNS.UseVisualStyleBackColor = true;
-            buttonHelp_KNS.Click += this.buttonHelp_KNS_Click;
+            buttonHelp_KNS.Click += buttonHelp_KNS_Click;
             // 
             // buttonSave_KNS
             // 
@@ -172,6 +172,7 @@
             dataGridViewOutput_KNS.RowHeadersWidth = 51;
             dataGridViewOutput_KNS.Size = new Size(462, 309);
             dataGridViewOutput_KNS.TabIndex = 0;
+            
             // 
             // openFileDialogTask
             // 
